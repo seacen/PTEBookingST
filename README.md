@@ -14,7 +14,7 @@ Sort new seats by user preference and auto secure seats (book the exam) followin
 ## License
 This project is licensed under [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
-As part of the initiative for urging Pearson to improve its PTE exam booking impartiality and website robustness (e.g. Adding CAPTCHAs), this project has been made open source and is free for download and use under the constraints specified in the license. Check out this page for a brief summary of the license: https://creativecommons.org/licenses/by-nc/4.0/
+As part of the initiative for urging Pearson to improve its PTE exam booking impartiality and website robustness (e.g. Adding CAPTCHAs), this project has been made open source and is free for download and use **under the constraints specified in the license**. Check out this page for a brief summary of the license: https://creativecommons.org/licenses/by-nc/4.0/
 
 ## Dependency Installation
 PTEBookingST requires several dependencies to be installed in order to be successfully up and running.
