@@ -1,0 +1,6 @@
+start_date: 2017-03-09
+end_date: 2017-05-08
+city: melbourne
+scraping_interval: 1
+do_email_alert: true
+do_check_time: true

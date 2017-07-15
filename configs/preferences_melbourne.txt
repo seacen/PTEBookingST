@@ -1,0 +1,4 @@
+factor_orders: centre, date, time
+centre_pref: RMIT English Worldwide, Pearson Professional Centers-Melbourne, PLT at Cliftons Melbourne
+date_pref: medium
+time_pref: last
