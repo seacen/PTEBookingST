@@ -57,7 +57,9 @@ or
 pip install requests
 ```
 ## Email Notification
-To enable email notification functionality in the program, users need to register with MailGun
+PTEBookingST consumes [mailgun API](https://www.mailgun.com/) under the hood to send email notifications. To enable email notification functionality in the program, users need to register with mailgun to obtain a free mailgun domain and an API key for authenticating with mailgun service.
+
+Once registered and logged in, go to Domains > _Your random allocated domain_ > Domain Information for domain name and API key.
 
 ## Usage
 1. Download this project to local and point Mac Terminal or Windows Command Line to the project folder. E.g:
@@ -74,3 +76,26 @@ python run.py
 ```
 
 ## Configuration
+PTEBookingST stores and reads your settings in _configs_ folder. Modify values in the following files to manipulate the program behaviour.
+### [settings.txt](../master/configs/settings.txt)
+This file stores common settings for the program.
+
+| Key | Description | Value Format |
+| --- | --- | --- |
+| start_date | the earlist date you want to take the exam in | `yyyy-mm-dd` |
+| end_date | the latest date you want to subscribe the seats information of | `yyyy-mm-dd` |
+| city | city to sit your exam in | city name in **lower** letters |
+| scraping_interval | the interval between each new scraping round | number in minutes, can be decimal |
+| do_email_alert | whether email alert should be sent when new seat is found | `true` or `false` |
+| do_check_time | whether to scrape the individual time of the available date | `true` or `false` |
+
+### [emails.txt](../master/configs/emails.txt)
+This file stores the email addresses that you want to be put as recipients of the email notification. Each email address should take up a line in the file.
+
+### [emailer_settings.txt](../master/configs/emailer_settings.txt)
+This file stores your mailgun account information. See [Email Notification](#email-notification) for details.
+
+| Key | Description | Value Format |
+| --- | --- | --- |
+| domain | the free domain that has been allocated to your account | full domain |
+| api_key | API key of your mailgun account | API key |
