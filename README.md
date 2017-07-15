@@ -45,7 +45,7 @@ Download PhantomJS at this address: http://phantomjs.org/download.html
 ##### Mac
 Place it in `/usr/bin` or `/usr/local/bin`  (`command`+`shift`+`.` to show hidden files and folders)
 ##### Windows
-Add the directory where you executable is in to PATH environment variable. Refer to this doc for instructions: [How to set the path and environment variables in Windows](https://www.computerhope.com/issues/ch000549.htm)
+Add the directory in where you executable is to PATH environment variable. Refer to this doc for instructions: [How to set the path and environment variables in Windows](https://www.computerhope.com/issues/ch000549.htm)
 
 ### Requests
 Requests is a python module for easily sending web requests to API. It is used for sending requests to MailGun email sending API. Run the following on Mac Terminal or Windows Command Line to install:
