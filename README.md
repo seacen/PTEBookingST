@@ -17,10 +17,10 @@ This project is licensed under [Attribution-NonCommercial 4.0 International](htt
 As part of the initiative for urging Pearson to improve its PTE exam booking impartiality and website robustness (e.g. Adding CAPTCHAs), this project has been made open source and is free for download and use under the constraints specified in the license. Check out this page for a brief summary of the license: https://creativecommons.org/licenses/by-nc/4.0/
 
 ## Dependency Installation
-PTEBookingST requires several dependencies to be installed in order to be succesfully up and running.
+PTEBookingST requires several dependencies to be installed in order to be successfully up and running.
 
 ### Python
-This program is written in python and thus requires python to be installed on your computer to be able to run.
+This program is written in Python and thus requires Python to be installed on your computer to be able to run.
 #### Python3 installation instruction
 ##### Mac
 [Installing Python 3 on Mac OS X](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/)
@@ -48,7 +48,7 @@ Place it in `/usr/bin` or `/usr/local/bin`  (`command`+`shift`+`.` to show hidde
 Add the directory in where you executable is to PATH environment variable. Refer to this doc for instructions: [How to set the path and environment variables in Windows](https://www.computerhope.com/issues/ch000549.htm)
 
 ### Requests
-Requests is a python module for easily sending web requests to API. It is used for sending requests to MailGun email sending API. Run the following on Mac Terminal or Windows Command Line to install:
+Requests is a Python module for easily sending web requests to API. It is used in the program for sending requests to MailGun email sending API. Run the following on Mac Terminal or Windows Command Line to install:
 ```
 pip3 install requests
 ```
@@ -59,7 +59,7 @@ pip install requests
 ## Email Notification
 PTEBookingST consumes [mailgun API](https://www.mailgun.com/) under the hood to send email notifications. To enable email notification functionality in the program, users need to register with mailgun to obtain a free mailgun domain and an API key for authenticating with mailgun service.
 
-Once registered and logged in, go to Domains > _Your random allocated domain_ > Domain Information for domain name and API key.
+Once registered and logged in, go to Domains > _Your random allocated domain_ > Domain Information for the domain name and API key.
 
 ## Usage
 1. Download this project to local and point Mac Terminal or Windows Command Line to the project folder. E.g:
@@ -86,7 +86,7 @@ This file stores common settings for the program.
 | end_date | the latest date you want to subscribe the seats information of | `yyyy-mm-dd` |
 | city | city to sit your exam in | city name in **lower** letters |
 | scraping_interval | the interval between each new scraping round | number in minutes, can be decimal |
-| do_email_alert | whether email alert should be sent when new seat is found | `true` or `false` |
+| do_email_alert | whether email alerts should be sent when new seat is found | `true` or `false` |
 | do_check_time | whether to scrape the individual time of the available date | `true` or `false` |
 
 ### [emails.txt](../master/configs/emails.txt)
