@@ -7,7 +7,7 @@ Scrape the seat availability website continuously to report new vacant seats.
 ### Notification
 Alert the user by email when a new seat in preferred date range has become available.
 ### Booking
-Sort new seats by user preference and auto secure seats (book the exam) for the user according to the sorted order.
+Sort new seats by user preference and auto secure seats (book the exam) following the sorted order.
 
 **_This feature is currently not complete. Please feel free to check out the [sorter.py](../master/sorter.py) and [booker.py](../master/booker.py) files to extend the codes._**
 
