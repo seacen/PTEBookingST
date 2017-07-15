@@ -1,5 +1,5 @@
 # PTEBookingST
-PTEBookingST is a program that is designed to help people snap up newly available seats for PTE Academic Exam.
+PTEBookingST is a program that helps people snap up newly available seats for PTE Academic Exam.
 
 ## Features
 ### Scraping
@@ -17,7 +17,7 @@ This project is licensed under [Attribution-NonCommercial 4.0 International](htt
 As part of the initiative for urging Pearson to improve its PTE exam booking impartiality and website robustness (e.g. Adding CAPTCHAs), this project has been made open source and is free for download and use under the constraints specified in the license. Check out this page for a brief summary of the license: https://creativecommons.org/licenses/by-nc/4.0/
 
 ## Dependency Installation
-PTEBookingST requires several dependencies to be installed in order to be succesfully upon running.
+PTEBookingST requires several dependencies to be installed in order to be succesfully up and running.
 
 ### Python
 This program is written in python and thus requires python to be installed on your computer to be able to run.
