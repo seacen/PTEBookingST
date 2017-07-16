@@ -1,5 +1,5 @@
 # PTEBookingST
-PTEBookingST is a program that helps people snap up newly available seats for PTE Academic Exam.
+PTEBookingST is a program that helps people snap up newly available seats for PTE Academic Exam Australia.
 
 ## Features
 ### Scraping
